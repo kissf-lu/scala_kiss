@@ -1,4 +1,4 @@
-//
+package Summer
 import CsumAcc.calculate
 
 object Summer {

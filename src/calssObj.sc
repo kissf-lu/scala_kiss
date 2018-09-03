@@ -1,0 +1,4 @@
+val dec = 0x32
+
+val dec0 = 0xff
+
