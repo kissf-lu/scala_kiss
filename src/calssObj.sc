@@ -2,3 +2,4 @@ val dec = 0x32
 
 val dec0 = 0xff
 
+val d = 0x0041
