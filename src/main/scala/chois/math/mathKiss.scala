@@ -1,4 +1,4 @@
-package mathkiss
+package chois.math
 
 object mathKiss {
   def main(args: Array[String]): Unit = {

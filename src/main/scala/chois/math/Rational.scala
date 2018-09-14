@@ -1,6 +1,9 @@
-package mathkiss
+package chois.math
 
-class Rational(n: Int, d: Int) {
+/*
+Extends Ordered Class
+ */
+class Rational(n: Int, d: Int) extends Ordered[Rational]{
   require(d != 0)
   private val g = {
     gcb(a = n.abs, b = d.abs)
@@ -43,6 +46,9 @@ class Rational(n: Int, d: Int) {
   def / (i: Int): Rational = {
     new Rational(mol, den * i)
   }
+// class Ordered
+  override def compare(that: Rational): Int =
+    (this.mol * that.den) - (this.den * that.mol)
 
   override def toString: String = mol + "/" + den
 

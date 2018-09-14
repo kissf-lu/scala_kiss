@@ -1,4 +1,4 @@
-package Summer
+package chois.summer
 
 //
 import scala.collection.mutable
